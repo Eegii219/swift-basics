@@ -3,6 +3,12 @@ var abc = "abc"
 
 let num = 12
 print(num)
+
+
+
+
+
+
 /*
  MULTI LINE COMMENT
 var greeting = "Hello, playground"
