@@ -98,6 +98,21 @@ print(numbers2)
 var numbers3: Dictionary<Int,String> = [1:"one",2:"two",3:"three",4:"four",5:"five"]
 print(numbers3)
 
+//Lecture 2 continue Collection
+//Mixed Type Array [Any]
+
+var mixArray: [Any] = [1,"two",true,1.2]
+print(mixArray)
+
+
+var tuple: (Int,String,Bool) = (1,"two",true)
+print(tuple)
+
+
+// Array add element is: append
+// Set add element is: insert
+
+
 
 
 
