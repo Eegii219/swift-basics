@@ -1,8 +1,8 @@
 import UIKit
-var abc = "abc"
-
-let num = 12
-print(num)
+//var abc = "abc"
+//
+//let num = 12
+//print(num)
 
 //adding second commit with new key add
 print("helloo new key")
@@ -48,32 +48,32 @@ print(greeting)
 */
 
 //STRING
-var name:String = "John"
-name = "Jane"
-print(name)
+//var name:String = "John"
+//name = "Jane"
+//print(name)
 
-//INTEGER
-let employeeId:Int = 1
-print(employeeId)
-
-//DOUBLE
-let salary:Double = 1000.00
-let percentage = 0.10
-var money: Double = 0.00
-
-//BOOL/BOOLEAN
-var isActive:Bool = true
-
-
-//CHAR  => when declaring char swift declare explicitly
-var char:Character = "A"
-var word:String = "Hello"
-
-//printing variable combile with String
-print("Pring variabels: \(name) and \(salary)")
-
-//String Concatenating!
-print(" The letters " + word + " are " + String(char))
+////INTEGER
+//let employeeId:Int = 1
+//print(employeeId)
+//
+////DOUBLE
+//let salary:Double = 1000.00
+//let percentage = 0.10
+//var money: Double = 0.00
+//
+////BOOL/BOOLEAN
+//var isActive:Bool = true
+//
+//
+////CHAR  => when declaring char swift declare explicitly
+//var char:Character = "A"
+//var word:String = "Hello"
+//
+////printing variable combile with String
+//print("Pring variabels: \(name) and \(salary)")
+//
+////String Concatenating!
+//print(" The letters " + word + " are " + String(char))
 
 
 /* COLLECTION
@@ -85,15 +85,25 @@ print(" The letters " + word + " are " + String(char))
 
 //ARRAY is ordered collection
 //EXPLICITLY DECLARING
-var numbers: [Int] = [1,2,3,4,5]
-print(numbers)
-print(numbers[0]);
-print(numbers.self);
+var numbers: [Int] = [10,20,3,4,5]
+//print(numbers)
+//print(numbers[0]);
+//print(numbers.self);
 
+
+// For In loop
+for number in numbers {
+    print(number)
+}
+
+for number in 0..<6 {
+    print(number)
+    
+}
 
 //SET
-var numbers2: Set<Int> = [1,2,3,4,5]
-print(numbers2)
-
-var numbers3: Dictionary<Int,String> = [1:"one",2:"two",3:"three",4:"four",5:"five"]
-print(numbers3)
+//var numbers2: Set<Int> = [1,2,3,4,5]
+//print(numbers2)
+//
+//var numbers3: Dictionary<Int,String> = [1:"one",2:"two",3:"three",4:"four",5:"five"]
+//print(numbers3)
